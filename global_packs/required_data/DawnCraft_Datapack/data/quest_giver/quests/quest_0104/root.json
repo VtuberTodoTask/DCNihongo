@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey there, can you get $(red)地元の弓矢職人から16本の矢$()を取ってきてくれる？それを返すよ。"
+    }
+  }
+}

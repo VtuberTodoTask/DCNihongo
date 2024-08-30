@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Everdawn次元から$(red)月の石$()を取ってきてもらえますか？その品質が気になります。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "こんにちは、良い紳士よ。地図製作台の使い方を学んでみませんか？たったの10エメラルドで！"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "助けて"
+    },
+    "description": {
+      "text": "略奪者が私たちの村から子供を誘拐しました...彼を救出して家に連れて帰ってください。ここにいるガードたちは巡回任務で手がいっぱいです。あなたが私たちの唯一の希望です。"
+    }
+  }
+}

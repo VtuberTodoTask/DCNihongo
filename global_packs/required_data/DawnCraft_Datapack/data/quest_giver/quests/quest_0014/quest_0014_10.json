@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "もうお伝えする情報はありません、友よ。あなたの呼び声に従ってください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終わり...はただの始まり??"
+    },
+    "description": {
+      "text": "さあ...あなたは龍を倒しましたね。それなら、あなたはこの領域の新しい支配者ということになります。おめでとうございます、勇敢な征服者。あなたは...できる限りのことを成し遂げました。さて、失礼します。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "じゃあ？"
+		},
+		"description": {
+			"text": "スキル「$(red)Vampirize$()」を15エメラルドで教えるよ。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "はい、どうぞ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+		"id": "quest_giver:gift",
+		"times": 15
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:vampirize\"}",
+		"id": "quest_giver:command"
+	}]
+}

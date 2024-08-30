@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "私はあなたに$(red)白クマの毛皮2枚$()を集めてきてほしい。その他のクマの種類より少し硬いかもしれないので、気をつけてください。用品を持って戻ったら来てください。"
+    }
+  }
+}

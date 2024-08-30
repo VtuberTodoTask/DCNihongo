@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務！"
+    },
+    "description": {
+      "text": "葉切りアリの幼虫を入手することによって準備が整ったことを示してください。これは土の上に置くことで葉切りアリのコロニーを始めることができます。そして、ウミガメの卵を守るために砂の城を築いてください。それができて初めて、私はこの武器をあなたに授けます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとうございます！これがそれです。シュルカーの影響によって、この武器はその形を完全に失い、元の形を超えて変化しました。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "ecologics:husbandry/sandcastle"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:moonless"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

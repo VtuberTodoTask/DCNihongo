@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:iron_chestplate",
+  "start": {
+    "title": {
+      "text": "きのこのシチュー！"
+    },
+    "description": {
+      "text": "ありがとう！おいしい$(red)きのこのシチュー$()の一口が食べたいだけなんだ。"
+    }
+  }
+}

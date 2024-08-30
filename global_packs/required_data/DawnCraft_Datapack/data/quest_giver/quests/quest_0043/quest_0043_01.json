@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "どうした？"
+    },
+    "description": {
+      "text": "エメラルド10個で地図作成台の使い方を教えてあげるよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "はい、どうぞ。"
+    },
+    "description": {
+      "text": "テーブルの器具に圧倒されないで、すぐに慣れるから！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

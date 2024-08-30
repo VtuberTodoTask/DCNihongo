@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な課題！"
+    },
+    "description": {
+      "text": "私を満足させるために二つの課題を完了することで、Antitheusを使う権利を得てください：他の3人の乗客と一緒にラビアタンに乗り、ムーブルームの毛を刈ってください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとうございます！これです。 このブラスターは、大きなエネルギー源を搭載した強力なパンチを提供します。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

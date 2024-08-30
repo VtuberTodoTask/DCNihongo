@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "どうする？"
+		},
+		"description": {
+			"text": "20エメラルドでスキル「ダンシングエッジ」を教えられます。信じて、これはその価値があります！"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "素晴らしい選択です！あなたの旅に幸運を祈ります。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:dancing_blade\"}",
+		"id": "quest_giver:command"
+	}]
+}

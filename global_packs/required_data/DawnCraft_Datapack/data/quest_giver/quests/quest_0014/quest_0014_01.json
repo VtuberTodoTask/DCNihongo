@@ -1,0 +1,46 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "初めての任務"
+		},
+		"description": {
+			"text": "条件を満たしたら戻ってきてください - $(red)ピレジャーを10体倒す$()。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "初めての任務"
+		},
+		"description": {
+			"text": "ここで、$(green)女神像$()から最初のアップグレードを受けるためにこれを使ってください！新しいスキルを学びたいなら、ここにいるガードの誰かに話すことをお勧めします。あなたの旅に幸運を。"
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+			"item": {
+				"item": "paraglider:spirit_orb"
+			},
+			"id": "quest_giver:item",
+			"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"メインクエスト - ゴブリン王の城\"",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/loot give @p loot minecraft:guildmaster0",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/gamestage add @p guildmaster2 true",
+			"id": "quest_giver:command"
+		}
+	]
+}

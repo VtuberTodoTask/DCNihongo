@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "こんにちは、$(red)ガストの涙$()を手に入れる手伝いをしてくれますか？それは私の医学研究に必要です。"
+    }
+  }
+}

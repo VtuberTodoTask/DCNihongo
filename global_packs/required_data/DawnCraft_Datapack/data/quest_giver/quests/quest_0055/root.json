@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "こんにちは、冒険者さん。あなたは地獄を通り抜けたように見えますね、はは！冗談です、ちょっと手伝ってもらえませんか？"
+    }
+  }
+}

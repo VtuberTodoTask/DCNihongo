@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務!"
+    },
+    "description": {
+      "text": "もうオルカの祝福を受けましたか?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう!"
+    },
+    "description": {
+      "text": "興味深い…そうやってやるのですね。あなたは魅力的な方ですね。お会いできて嬉しいです! では、行かなければ…神の加護を!"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:rootless \"浮遊する宮殿\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

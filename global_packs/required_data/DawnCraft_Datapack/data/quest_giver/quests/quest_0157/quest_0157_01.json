@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能なタスク！"
+    },
+    "description": {
+      "text": "2つのタスクを完了してほしい: 高貴な太陽の鳥からの祝福を受け取り、突然変異した雪ゴーレムを召喚すること。その後、あなたにアゴニーを渡すことを考慮するだろう。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい！ 受け取ってくれ。以前の持ち主は凶暴な獣に倒された。あなたの運命は彼と異なりますように。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0019_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "それで？"
+    },
+    "description": {
+      "text": "紙を一枚取ってきてもらえますか？地図を描いてあげます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとうございます！"
+    },
+    "description": {
+      "text": "はい、どうぞ。彼に私の挨拶を伝えてください。それがなければここにいなかったでしょう。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:fallen_house \"鉱夫の依頼 - 同胞の精霊\"",
+		"id": "quest_giver:command"
+	},  
+    {
+      "command": "/loot give @p loot minecraft:miner1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p miner1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

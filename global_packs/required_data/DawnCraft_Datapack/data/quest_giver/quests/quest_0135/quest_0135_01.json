@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "どうした？"
+		},
+		"description": {
+			"text": "25エメラルドでスキル「ファントムアセント」を教えられるよ。自分で言うのもなんだけど、かなり良い取引だよ！"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "さあ、冒険者よ！スキルを使うには、2回ジャンプするだけだ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 25
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:phantom_ascent\"}",
+		"id": "quest_giver:command"
+	}]
+}

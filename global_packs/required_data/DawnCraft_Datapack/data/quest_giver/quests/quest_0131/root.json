@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "スキルを学びたいのか？わかった、それにはエメラルドを20個必要だ。"
+    }
+  }
+}

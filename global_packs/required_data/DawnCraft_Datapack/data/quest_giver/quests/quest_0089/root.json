@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "蜂蜜の瓶が飲みたくてたまらない！ 一つ取ってきてくれない？"
+    }
+  }
+}

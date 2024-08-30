@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは!"
+    },
+    "description": {
+      "text": "私はあなたに代償で非常に強力な戦闘スキルを教えることができます..."
+    }
+  }
+}

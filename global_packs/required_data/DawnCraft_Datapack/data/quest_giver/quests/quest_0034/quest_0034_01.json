@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:pumpkin",
+  "start": {
+    "title": {
+      "text": "詰め物をしたかぼちゃ"
+    },
+    "description": {
+      "text": "$(yellow)詰め物をしたかぼちゃ$()をもう料理しましたか？心配しないで、時間がかかるのは理解しています！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "完了しました"
+    },
+    "description": {
+      "text": "素晴らしい香りです！本当にありがとう、これで私の家族は何日も食べられます。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "覚えておいて、ネザーの灰色の荒れ地。そこを訪れた後、私のところに戻ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "終了"
+    },
+    "description": {
+      "text": "それは興味深いですね... あの場所について教えてくれてありがとう。報酬をどうぞ。さあ、行きなさい... 私は重要な決断をしなければなりません。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

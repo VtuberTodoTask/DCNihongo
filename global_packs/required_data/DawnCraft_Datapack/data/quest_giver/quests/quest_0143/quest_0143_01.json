@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "どうした？"
+		},
+		"description": {
+			"text": "30エメラルドでスキル - 征服者の覇気を教えることができる。どう思う？"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "これをどうぞ。このスキルを仲間の前で使うときは気をつけて。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 30
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:conqueror_haki\"}",
+		"id": "quest_giver:command"
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢の工芸"
+    },
+    "description": {
+      "text": "トウヒの木が矢のシャフトを作るのに最適だということをご存知でしたか？まあ、どちらにせよ関係ありません。それらの丸太をいくつか取ってきてくれませんか？少なくとも4つ必要です。"
+    }
+  }
+}

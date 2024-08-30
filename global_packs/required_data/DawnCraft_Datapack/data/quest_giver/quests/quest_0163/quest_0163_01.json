@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務！"
+    },
+    "description": {
+      "text": "この武器を手に入れるためには、まず2つの任務を達成して自分を証明しなければなりません：ポルターガイストブロックを作成し、小さなブロビエーターを瓶に捕まえます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい仕事です！こちらが Gesetz と Herrscher です。海の力で注入されており、一緒に使うと独自の相乗効果を発揮します。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "biomemakeover:biomemakeover/poltergeist"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "cloudstorage:cloudstorage/angry_cloud_in_a_bottle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:herrscher"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "wom:gesetz"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

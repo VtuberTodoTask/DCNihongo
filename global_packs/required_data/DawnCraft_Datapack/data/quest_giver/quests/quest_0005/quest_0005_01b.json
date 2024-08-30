@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "最近、私の大切な作物がうまく育っていないのです... $(red)8本の骨$()を手に入れる手助けをしてもらえませんか？それで肥料が作れるんです。"
+    }
+  }
+}

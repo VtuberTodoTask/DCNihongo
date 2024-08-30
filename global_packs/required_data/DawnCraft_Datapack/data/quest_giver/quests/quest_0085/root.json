@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "こんにちは！ ネザーからクリムゾンウッドの幹をいくつか取ってきてくれませんか？ 特殊なハンドルの道具を作ろうと思っています。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "こんにちは！もうエバーブライトやエバードawnの次元に行きましたか？どちらにしても、手を貸していただけませんか？"
+    }
+  }
+}

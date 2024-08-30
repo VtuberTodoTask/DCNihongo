@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "何かを持ってきて！"
+    },
+    "description": {
+      "text": "やあ！$(red)4個の鉄インゴット$()はもう手に入れた？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "ありがとう！これでやっとあの guard のための鎧を作れる… 彼はそれについてずっと言ってたからね！今は君に何もあげられないけど、いつか必ず返すから！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

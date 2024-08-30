@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "爆風炉のクラフト"
+    },
+    "description": {
+      "text": "こんにちは。爆風炉はもう作りましたか？他のものを取るのではなく、新しいものを作るようにしてください！"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "素晴らしい！"
+    },
+    "description": {
+      "text": "素晴らしい！この新しい施設があれば、確実により良い装備を作れます。ありがとう！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

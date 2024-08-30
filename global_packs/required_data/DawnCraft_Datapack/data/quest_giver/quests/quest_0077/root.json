@@ -1,0 +1,12 @@
+{
+  "reputation": 24,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Everbrightの次元から$(red)ターコイズストーン$()を取ってきてくれる？どんな見た目なのか気になるんだ"
+    }
+  }
+}

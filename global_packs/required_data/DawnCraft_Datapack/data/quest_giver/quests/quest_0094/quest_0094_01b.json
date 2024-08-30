@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "手助け"
+    },
+    "description": {
+      "text": "エンネゲルパスタという料理があります。これはエンド次元でしか見つからない材料で作れる料理です... すべての資源を集めて、私のために一つ料理してください。"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0001_02b",
+  "reputation": 5,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "こんにちは！もう私のために紙を取ってきてくれましたか？地図を描きたいのです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここにあります。"
+    },
+    "description": {
+      "text": "ここにあります。病んだ狩人たちが巣食っている家があります...私の良き友人が彼らの場所を追跡し、地図に記しています。彼らは敵から手に入れた戦利品をため込んでいることでしょう...彼らを倒して戦利品を手に入れてください。もし可能であれば、私から盗まれたネックレスを探してみてください。彼らはテーブルの下に物を隠すのが好きです。それを見つけられるか見てみてください。ネックレスを戻してくれたら、できる限りお礼をします！"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:armorer_dungeon \"防具職人の依頼\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:armorer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p armorer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

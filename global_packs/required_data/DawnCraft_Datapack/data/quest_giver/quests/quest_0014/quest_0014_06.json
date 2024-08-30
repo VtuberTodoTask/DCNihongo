@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "目の保持者への道"
+    },
+    "description": {
+      "text": "うーん...九尾は正確には人間ではない。まあ、会えば分かるだろう。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "目の保持者への道"
+    },
+    "description": {
+      "text": "ふん...この時点で驚くことすらありません。良くやった。九尾は悪名高い暴力的な精霊でした...なぜそれが廃屋で引退することにしたのか全く分かりません。とにかく、次の目の保持者の居場所はここです。注意してください、これはこれまでに直面したものとはまったく異なります。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:floating_island \"メインクエスト - 浮遊する島\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

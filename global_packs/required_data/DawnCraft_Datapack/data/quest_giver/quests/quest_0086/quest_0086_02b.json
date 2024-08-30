@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0086_01",
+  "reputation": 37,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "助けて"
+    },
+    "description": {
+      "text": "いいね。見つけた襲撃者を皆 extermination してほしい。彼らの攻撃計画に時間をかけさせないために、気を引く必要があるんだ... 5体殺したら戻ってきて。"
+    }
+  }
+}

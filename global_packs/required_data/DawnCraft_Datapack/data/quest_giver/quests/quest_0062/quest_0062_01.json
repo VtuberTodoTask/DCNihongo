@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "羽毛の収集"
+    },
+    "description": {
+      "text": "$(red)ロードランナーの羽2枚$()は手に入ったか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "うーん... 品質は特に良くないようだ。他の方法で活用できるか見てみるよ。とにかく、これで君の手間を労っておく。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:roadrunner_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    }
+  ]
+}

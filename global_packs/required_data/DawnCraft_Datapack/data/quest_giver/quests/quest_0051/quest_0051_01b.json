@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "野心的な農夫として、私の人生の目標は様々な植物を育てる専門家になることです！しかし、私は小麦とじゃがいもしか経験がありません... かぼちゃの種を見つけるのを手伝ってくれませんか？そこから野心的な征服を始めます！"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "迷子の子供"
+    },
+    "description": {
+      "text": "子供を助けて、ここに連れて来てください。"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "迷子の子供: 完了"
+    },
+    "description": {
+      "text": "あなたがしたことに感謝します、冒険者。私たちはあなたが私たちのためにしてくれたことを決して忘れません。さあ、新しい combat スキル - デスハーベストを教えます。"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

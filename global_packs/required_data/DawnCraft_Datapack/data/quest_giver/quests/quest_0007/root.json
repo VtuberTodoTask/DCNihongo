@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "わずか10エメラルドで、弓矢練成台の使い方を教えているんだ。どう思う？"
+    }
+  }
+}

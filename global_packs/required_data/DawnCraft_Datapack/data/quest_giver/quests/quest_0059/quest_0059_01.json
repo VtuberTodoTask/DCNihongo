@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "時間の追跡"
+    },
+    "description": {
+      "text": "砂時計は手に入れたか？いつ頼んだかも覚えていない。ああ、あのものが必要だ。早くお願い。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "いいね！これが...ちょっと待って、何も入っていない。どうやって使うの？うーん...$(red)レッドストーンダスト$()を手に入れてくれる？砂時計に入れるために。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

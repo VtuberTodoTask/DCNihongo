@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "私に$(red)古代の残骸$()を取ってきてくれませんか？こんな高品質の鉱石を扱う機会はありませんでした...それに対して高い値段を払うつもりです！"
+    }
+  }
+}

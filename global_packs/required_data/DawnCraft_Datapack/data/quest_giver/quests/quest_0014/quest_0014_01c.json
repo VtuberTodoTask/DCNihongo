@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+			"text": "襲撃者を見つける"
+		},
+		"description": {
+			"text": "君は冒険者だと思っていたが…まぁいい。紙を一枚持ってきてくれ。近くの襲撃者キャンプの場所を教えてあげる。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "地図を取得"
+		},
+		"description": {
+			"text": "はい、どうぞ。もっと近くに襲撃者がいるかもしれないけど。あいつらはどこにでもいるからな。"
+		}
+	},
+	"tasks": [
+		{
+			"item": {
+				"item": "minecraft:paper"
+			},
+			"id": "quest_giver:gift",
+			"times": 1
+		}
+	],
+	"rewards": [
+		{
+			"command": "/dc addWaypoint @p #custom:pillager_camp \"メインクエスト - 襲撃者キャンプ\"",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/loot give @p loot minecraft:pillager1",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/gamestage add @p guildmaster1 true",
+			"id": "quest_giver:command"
+		}
+	]
+}

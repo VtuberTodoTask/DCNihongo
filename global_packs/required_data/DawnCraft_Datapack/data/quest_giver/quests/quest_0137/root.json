@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは!"
+    },
+    "description": {
+      "text": "こんにちは。パッシブな戦闘スキルを学びたいですか?"
+    }
+  }
+}

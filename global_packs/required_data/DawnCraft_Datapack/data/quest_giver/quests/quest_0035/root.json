@@ -1,0 +1,12 @@
+{
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "やあ"
+    },
+    "description": {
+      "text": "あんた！ちょっと手を貸してくれないか？"
+    }
+  }
+}

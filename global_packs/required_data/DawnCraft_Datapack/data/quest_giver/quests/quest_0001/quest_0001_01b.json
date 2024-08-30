@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "何かを持ってきて！"
+    },
+    "description": {
+      "text": "何かが必要なんだ！$(red)鉄インゴット4個$()を持ってきてくれないか？防具を作る材料が足りなくなってきているんだ... いつか必ずお返しするから！"
+    }
+  }
+}

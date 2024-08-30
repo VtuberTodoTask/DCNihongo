@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "ちょっとしたアドバイスを... ここにいる人たちは大抵良い人だけど、中には... あんまり良くない人もいる。人の言うことをすべて信じないほうがいいよ、わかった？"
+    }
+  }
+}

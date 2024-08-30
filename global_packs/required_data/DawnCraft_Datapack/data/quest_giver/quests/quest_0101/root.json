@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "あなたが見つけたら$(red)ラフレシア1個$()をくれませんか？"
+    }
+  }
+}

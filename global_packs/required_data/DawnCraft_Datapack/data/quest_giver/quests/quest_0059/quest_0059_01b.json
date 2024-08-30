@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "時間の記録"
+    },
+    "description": {
+      "text": "時間を追跡するのに役立つものがあると聞きました。それは何という名前でしたか、ああそうだ - $(red)砂時計$()！私にそれを一つ取ってきてくれますか？"
+    }
+  }
+}

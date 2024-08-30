@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "こんにちは、ハサミを一つ持ってきてくれませんか？私のが今壊れたところなんです。"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "素晴らしい！私は$(red)ヘムロックの葉2枚$()が必要です。それはほとんどの動物にとっては非常に有毒ですが、私が狩っている下等な獣にはそうではありません..."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": "土地のゴーレムを倒して彼の$(red)ゴーレムの目$()を手に入れましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Thanks!"
+    },
+    "description": {
+      "text": "なんということでしょう！これは私が今まで見た中で最も魅力的なアイテムの一つです。想像以上のものです。さあ、これを報酬として渡しますが、今はエメラルドを持っていないことをお詫びします。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

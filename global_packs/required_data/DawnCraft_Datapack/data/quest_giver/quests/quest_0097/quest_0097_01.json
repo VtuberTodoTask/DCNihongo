@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "さて？"
+    },
+    "description": {
+      "text": "曖昧な説明で申し訳ありません... しかし、問題は私がその構造物がどこにあるのか、どんな形をしているのか分からないことです。それは村人の城で、作成された装置があると思います。見ればわかると思います。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "それは興味深いです！しかし、これらの村人たちが自分たちでそれを作ったとは思えません。彼らにはエンジニアがいません... 誰かが彼らをそこに留めているのです。いずれにせよ、本当にありがとう。はい、クッキーがあります。"
+    }
+  },
+  "tasks": [
+	{
+	   "id": "dawncraft:advancement",
+	   "advancement": "custom:castle"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

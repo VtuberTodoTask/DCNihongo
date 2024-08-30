@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "こんにちは!"
+    },
+    "description": {
+      "text": "こんにちは。君にいくつかの extermination 契約があるよ、冒険者。"
+    }
+  }
+}

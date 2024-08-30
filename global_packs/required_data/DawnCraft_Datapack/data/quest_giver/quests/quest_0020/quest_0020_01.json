@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0020_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "どうした？"
+    },
+    "description": {
+      "text": "$(red)紙の1枚$()を持ってきてくれない？地図を描いてあげるから。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "はい、どうぞ。彼によろしく言っておいて。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:cult_informer_ruin \"Netherian's Request\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:netherian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p netherian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

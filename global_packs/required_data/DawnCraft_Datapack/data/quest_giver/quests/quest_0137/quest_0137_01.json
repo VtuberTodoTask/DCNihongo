@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "さて？"
+		},
+		"description": {
+			"text": "私はスキル「ハイパーバイタリティ」を知っています。それを20エメラルドで教えます。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "その本はこの技術の秘密を教えてくれるはずです。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+		"id": "quest_giver:gift",
+		"times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:hypervitality\"}",
+		"id": "quest_giver:command"
+	}]
+}

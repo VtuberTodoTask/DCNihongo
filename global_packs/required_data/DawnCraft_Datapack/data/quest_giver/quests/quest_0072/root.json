@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "こんにちは!"
+    },
+    "description": {
+      "text": "こんにちは。お話ししませんか？"
+    }
+  }
+}

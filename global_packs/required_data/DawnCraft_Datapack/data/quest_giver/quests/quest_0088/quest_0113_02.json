@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "$(red)宝石$()は手に入ったか？それを手に入れるには生き物を exterminする必要があるかもしれない。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "こちらです。"
+    },
+    "description": {
+      "text": "わあ...これは素晴らしい。これはまさに...驚くべきことだ。これには少し時間が必要だ。木の棒を持ってきてくれないか？特別なものを作れるかもしれない。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "もしまだやり方を知らなければ、簡単な回避ロールのやり方を教えてあげるよ..."
+    }
+  }
+}

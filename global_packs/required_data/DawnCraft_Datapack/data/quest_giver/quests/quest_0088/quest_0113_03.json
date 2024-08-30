@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0113_02",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "まだ作業中だよ！棒は手に入った？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだ。"
+    },
+    "description": {
+      "text": "はい、どうぞ。今までの中で一番の出来かもしれない、えへ。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:stick"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:gem_sword"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

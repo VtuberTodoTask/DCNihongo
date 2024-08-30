@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "あなたの仕事についていい話を聞きました。エキゾチックな商品をいくつか集めてほしいのですが、特に：$(red)ライオンの皮$()が必要です。それを4つ持ってきてください。商品を持って戻ってきてください。"
+    }
+  }
+}

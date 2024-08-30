@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "私の仲間よ。この場所は退屈で死にそうだ... 少しおしゃべりしない？あなたにとって価値のある時間になるよ。"
+    }
+  }
+}

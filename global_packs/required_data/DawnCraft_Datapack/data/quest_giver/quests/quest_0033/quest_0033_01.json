@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "エキゾチックミート"
+    },
+    "description": {
+      "text": "あなたは$(red)カンガルーの肉と毛皮$()を手に入れましたか？"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "おめでとう！"
+    },
+    "description": {
+      "text": "ああ... これがカンガルーの味というわけですか。確かに柔らかい肉ですね... 一方で毛皮は私たちが使う普通の革ほど良くありません。しかし良いトロフィーにはなります... たくさんの冒険者に感謝します。あなたにあげるものはあまりありませんが... ほら、これらの牛肉のスライスを受け取ってください。今日入ってきたばかりなので新鮮です！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

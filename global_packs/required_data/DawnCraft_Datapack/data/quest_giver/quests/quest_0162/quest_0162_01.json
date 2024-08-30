@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務!"
+    },
+    "description": {
+      "text": "この武器を手に入れるためには、まず二つの任務を達成して自分自身を証明する必要があります: 魔女の小屋で魔女のクエストを完了し、プーカを他の場所から引き離し、金のニンジンで鎮めることです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう!"
+    },
+    "description": {
+      "text": "素晴らしい仕事でした! これがその武器です。軽量ですが、かなりの致死性を秘めています。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "habitat:husbandry/fae_whisperer"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "biomemakeover:biomemakeover/witch_quest"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:satsujin"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

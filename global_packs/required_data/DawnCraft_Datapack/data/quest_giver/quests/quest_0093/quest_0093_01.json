@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 50,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "助けて"
+    },
+    "description": {
+      "text": "エンドディメンションの奥深くに隠れた生物がいます - 虚無のワームです。幼虫をエンドの奥深くに投げることで、召喚することができます。幼虫は、クリムゾンモスキートの幼虫をエンダーフィージのカプシドに投げることで作成できます。"
+    }
+  }
+}

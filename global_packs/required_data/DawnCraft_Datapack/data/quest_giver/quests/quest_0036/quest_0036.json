@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "友好的な会話"
+    },
+    "description": {
+      "text": "まな板はナイフと一緒に使うと、ほとんどの食材を小さく切り分けることができるって知ってた？食材だけでなく、丸太や道具など他の資源でも少し実験してみる価値があるよ！"
+    }
+  }
+}

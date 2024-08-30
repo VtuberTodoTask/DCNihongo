@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 24,
+	"icon": "minecraft:stone",
+	"start": {
+		"title": {
+			"text": "別の次元の石"
+		},
+		"description": {
+			"text": "$(red)ターコイズの石$()は手に入れたか？エバーライト次元で見つけることができるぞ。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "うーん...品質は...悪くない。うまく使わせてもらうよ、ありがとう！"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "blue_skies:turquoise_stone"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_mason",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:village @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

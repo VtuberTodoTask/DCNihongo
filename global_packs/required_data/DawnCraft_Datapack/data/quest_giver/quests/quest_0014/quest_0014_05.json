@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "目の保持者への道"
+    },
+    "description": {
+      "text": "現在の状態のナイト・ロバーについてはほとんど情報がありませんが、彼は最後の戦争以来かなり弱っているはずです... ああ、エンダーパールを持ってくることを忘れないでください。彼にはテレポーテーションでしか避けられない厄介な攻撃があります。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "目の保持者への道"
+    },
+    "description": {
+      "text": "わあ、ナイト・ロバーを倒したんですね。彼は強かったですか？昔、彼は決闘で対面できる最も恐ろしい相手の一人でしたが、彼の年齢がついに彼に追いついたようですね。さて、次の目の保持者は別の人間です。彼は現在、平和に農家で暮らしています... 彼の場所の地図をどうぞ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:ninetail_farm \"メインクエスト - ニンテールの農場\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

@@ -1,0 +1,49 @@
+{
+	"parent": "quest_giver:quest_0083_01",
+	"reputation": 13,
+	"icon": "minecraft:iron_axe",
+	"start": {
+		"title": {
+			"text": "どうした？"
+		},
+		"description": {
+			"text": "もう僕の鉄の斧は手に入れたの？早くして。"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "ありがとう！"
+		},
+		"description": {
+			"text": "はい！これが私が作った斧です... これを超えるものは作れたことがないんだよ。とにかく、これが君の報酬だ。手伝ってくれて感謝しているよ。"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:iron_axe",
+			"forge:nbt": "{tag:\"toolsmith\"}"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/give @p iron_axe{Enchantments:[{id:efficiency,lvl:2}]}",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/advancement grant @p only custom:trade_toolsmith",
+			"id": "quest_giver:command"
+		}
+	]
+}

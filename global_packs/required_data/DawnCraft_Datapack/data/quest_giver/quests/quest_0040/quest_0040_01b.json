@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "不可能な仕事！"
+    },
+    "description": {
+      "text": "サバンナバイオームに住んでいる巨大な生き物、象がいることを知っていましたか？私たちの中には、それらを飼いならすことに成功した者もいます。あなたもできると思いますか？象を飼いならすことが？"
+    }
+  }
+}

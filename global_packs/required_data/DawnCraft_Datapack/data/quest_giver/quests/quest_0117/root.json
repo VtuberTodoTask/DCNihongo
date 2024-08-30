@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "提供"
+    },
+    "description": {
+      "text": "私はあなたに教えられる面白いスキルを持っています - ステップ。それには15エメラルドが必要です。"
+    }
+  }
+}

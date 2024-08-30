@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "地図作成テーブルのロックを解除"
+    },
+    "description": {
+      "text": "ああ...うん、わかった。エメラルドを15個渡してくれれば、使い方を教えてあげる。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "はい、どうぞ。"
+    },
+    "description": {
+      "text": "テーブルの上の機器に怯えないで、すぐにコツが掴めるから！"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

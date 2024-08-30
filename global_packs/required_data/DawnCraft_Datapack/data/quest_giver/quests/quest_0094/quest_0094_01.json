@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0094_01b",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": "料理を作ったら戻ってきてくれ、$(red)エンネゲルパスタ$()を持ってきてくれれば、しっかり報酬を払うよ。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Thanks!"
+    },
+    "description": {
+      "text": "この味...！まるで母の料理のようだ... 冒険者さん、これにどれほど感謝しているか分からない。さあ、これを受け取ってくれ。これはエンダーの力で鍛えられた刀だ。これより強い武器はないだろう。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "enlightened_end:ennegel_pasta"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "scattered_weapons:darkkatana"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 18,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "スリングショットのクラフト"
+    },
+    "description": {
+      "text": "そうです - スリングショットです！私は動くものを作ろうとしていましたが、使えるレプリカを作るための技術が足りないようです。あなたも試してみませんか？"
+    }
+  }
+}

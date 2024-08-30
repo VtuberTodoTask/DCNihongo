@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務！"
+    },
+    "description": {
+      "text": "あなたの前に2つの任務があります：フードをかぶったワシから100ブロック離れた場所でクリーチャーを倒すこと、そして豚に発酵したクモの目を与えた後、化学薬品Xを投げつけること。それらを達成すれば、あなたにTormentを託けることを考えます。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "よくやった！これです。かつてのマスターは恐ろしいピグリンの戦士でした。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/bald_eagle_challenge"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "mutantmonsters:spider_pig_spider_pig"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:tormented_mind"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

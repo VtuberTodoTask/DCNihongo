@@ -1,0 +1,64 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "目を持つ者への道"
+    },
+    "description": {
+      "text": "オーガはゴブリン王とは比較にならないほどのレベルにいます。注意して進んでください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "目を持つ者への道"
+    },
+    "description": {
+      "text": "よくやりました。今なら$(red)騎士ロバー$()と対峙できるかもしれません。彼はかつての姿よりもずっと弱くなっていますが、まだ彼が持っている目の力を保持できる限り、非常に危険な存在であることに変わりはありません。彼の現在の所在を示す地図です。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:arena \"メインクエスト - 騎士ロバーのアリーナ\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting true",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

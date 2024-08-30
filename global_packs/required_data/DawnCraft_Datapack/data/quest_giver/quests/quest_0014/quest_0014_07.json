@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "眼の保持者への道"
+    },
+    "description": {
+      "text": "次の眼の保持者はアンデッドです。具体的には、さまざまなトリックを持ったアンデッドです…彼はその従者に囲まれているので、彼にたどり着くのは難しいかもしれません。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "眼の保持者への道"
+    },
+    "description": {
+      "text": "スケルトン・ロードは、私が今まで見た中で最も強力なアンデッドです。あなたが彼を倒せるとは驚きです。さて、次の眼は著名な聖騎士に守られています。それでもあなたに可能かどうかはわかりません。いずれにせよ、その位置を教えます。注意して進んでください。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:sentinel_tree \"メインクエスト - ガーディアンツリー\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

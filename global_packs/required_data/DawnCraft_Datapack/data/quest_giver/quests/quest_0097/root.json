@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "私たちの仲間のいくつかが、Create Contraptionsを使って個々の城に移動したと聞きました。もしそのような場所に出会ったら、どんな感じか教えてくれませんか？"
+    }
+  }
+}

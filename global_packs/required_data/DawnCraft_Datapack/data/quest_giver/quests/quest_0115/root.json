@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "オファー"
+    },
+    "description": {
+      "text": "こんにちは、冒険者よ！あなたにオファーがあります。"
+    }
+  }
+}

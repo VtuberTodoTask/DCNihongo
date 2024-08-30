@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは、若き冒険者！"
+    },
+    "description": {
+      "text": "こんにちは、若き冒険者！手を貸してくれないか？"
+    }
+  }
+}

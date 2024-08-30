@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "無視された目"
+    },
+    "description": {
+      "text": "私の知る限り、現在無視された目は7つあります。構造物に見られるのは呪われた目と古い目です。他の目については...ほとんどは私たちの領域の命の力を使って作れると思いますが、いくつかは知性を持つ獣によって盗まれたかもしれません。周りの地元の人々はそれについて私よりも知っているかもしれません。しかし、私が知っているのは、聖職者たちが現在悪魔の目を所持しているということです。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "無視された目"
+    },
+    "description": {
+      "text": "もう目を探す必要はないと思いますか？"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

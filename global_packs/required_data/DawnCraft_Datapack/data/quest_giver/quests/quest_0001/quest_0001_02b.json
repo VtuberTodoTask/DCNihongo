@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0001_01",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "そういえば..."
+    },
+    "description": {
+      "text": "そういえば... お礼ができる方法があります。私に地図を描くための紙を一枚持ってきてくれますか？"
+    }
+  }
+}

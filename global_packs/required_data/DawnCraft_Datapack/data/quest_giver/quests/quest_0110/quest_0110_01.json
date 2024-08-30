@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "勇敢な男よ。私に紙を一枚渡してくれれば、どこにその生き物がいるか教えてあげられる。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "こちらです。"
+    },
+    "description": {
+      "text": "ここで、私たちにこの情報を提供してくれたのは僧侶です。ただし、完全に正確かどうかはわかりません。いずれにせよ、その生き物を見つけて、殺し、落としたものを持ち帰ってください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:cave_dwelling \" extermination request - cave dweller\"",
+		"id": "quest_giver:command"
+	},
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

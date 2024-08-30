@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:enchanted_book",
+  "start": {
+    "title": {
+      "text": "基本スキル"
+    },
+    "description": {
+      "text": "ああ… 現在の条件では目を見つけることはできないと思います。$(red)10人の襲撃者$()を倒したら、戻ってきてください。あなたの旅の準備をするために何かを差し上げます。"
+    }
+  }
+}

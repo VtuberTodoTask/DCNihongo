@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": " extermination の依頼"
+    },
+    "description": {
+      "text": "クリーパーが夜にここで頻繁に湧いています... 彼らは私たちを傷つけませんが、かわいそうな子羊たちを怖がらせます。夜に彼らを駆除してもらえますか？ 6匹のクリーパーを倒したら報酬をお渡しします。"
+    }
+  }
+}

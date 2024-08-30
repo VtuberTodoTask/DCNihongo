@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": "私たちの装備は少し壊れていて... $(red)鉄の鍸$()を手に入れてくれると思う？"
+    }
+  }
+}

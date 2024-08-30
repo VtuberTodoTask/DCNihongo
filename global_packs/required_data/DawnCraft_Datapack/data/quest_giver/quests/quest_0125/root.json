@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やぁ!"
+    },
+    "description": {
+      "text": "教えたいスキルがあるけど、15エメラルドでね!"
+    }
+  }
+}

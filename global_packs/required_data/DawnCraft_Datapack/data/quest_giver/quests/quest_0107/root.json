@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Hey boy, can you get me a piece of $(red)夕暮れの丸太$()? It can be found in the Everdawn dimension."
+    }
+  }
+}

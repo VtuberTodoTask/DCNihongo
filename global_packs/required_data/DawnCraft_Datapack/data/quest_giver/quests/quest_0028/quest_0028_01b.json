@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "素晴らしい！"
+    },
+    "description": {
+      "text": "この次元には、湯気が沸き立つ温泉水の上を流れ、魔法の霧が山全体を覆うバイオームがあると言われています。勇敢なる冒険者よ、もしそのような場所に出会ったら、ぜひ戻ってきてその真実を教えてください！"
+    }
+  }
+}

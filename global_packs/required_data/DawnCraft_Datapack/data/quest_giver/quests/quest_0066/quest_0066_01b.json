@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "私は$(red)黒クマの毛皮2枚$()を集めてきてほしい。持ち帰ったら戻ってきてくれ。"
+    }
+  }
+}

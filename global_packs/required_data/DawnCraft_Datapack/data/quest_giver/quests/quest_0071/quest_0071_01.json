@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "貴重なアイテムの回収"
+    },
+    "description": {
+      "text": "地図を描くために、紙の一枚を持ってきてください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここです。"
+    },
+    "description": {
+      "text": "お手数をおかけします。行ってほしい場所はこちらです。そこには私のものだった本があります。その場所はかつて、次元中の学者たちで満たされた寺院でしたが、今がどうなっているのかはわかりません。慎重に進んで、私の本を持ってきてください。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"司書の依頼\"",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

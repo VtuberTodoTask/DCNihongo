@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "矢作り"
+    },
+    "description": {
+      "text": "矢作りのために羽が少し足りません。$(red)2羽の羽$()を取ってきてくれませんか？終わったらいくつかの矢をお返しします。"
+    }
+  }
+}

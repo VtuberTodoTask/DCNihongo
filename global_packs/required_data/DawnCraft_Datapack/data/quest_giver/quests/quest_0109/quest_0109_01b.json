@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "近くの村に拠点を構えた襲撃者たちが子供を連れ去ってしまった... この村の護衛では強さが足りず、急いで子供を助けに行くことができない。もし助けてくれるなら、紙を1枚取ってきてほしい。どこにいるかを教えるから。"
+    }
+  }
+}

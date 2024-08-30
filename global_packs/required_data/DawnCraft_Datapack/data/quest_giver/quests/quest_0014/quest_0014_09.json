@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0014_08",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "火の巨人は多くの月前に私たちの領域から消え去りました。彼が去る前に彼の髪の束を取り出すことができました。偉大な聖職者たちはアイテムに魔法をかけ、それを祭壇で捧げることで巨人を召喚できるはずです。もし髪の束を失ってしまったら、火の弾を基本的な耐火ポーションと醸造スタンドで組み合わせてアイテムを再召喚してください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "道の終わり"
+    },
+    "description": {
+      "text": "うーん、言葉も出ません…これが冒険者よ。あなたはすべての目を持つ者を倒しました。もしすでに12個の目を手に入れているなら、エンドへのゲートウェイを探してみてください。神の加護を。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:corrupted_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 10",
+      "id": "quest_giver:command"
+    }
+  ]
+}

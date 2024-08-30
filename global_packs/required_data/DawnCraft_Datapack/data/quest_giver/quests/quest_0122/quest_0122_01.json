@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "アドバイス"
+    },
+    "description": {
+      "text": "知っていましたか？ フロストモーはその目を守っていたイエティからコールドアイを奪ったのです！ もう数人の旅人からこの話を聞いたので、間違いないでしょう... 私たちが住んでいるのはなんて混沌とした世界なのでしょう。"
+    }
+  }
+}

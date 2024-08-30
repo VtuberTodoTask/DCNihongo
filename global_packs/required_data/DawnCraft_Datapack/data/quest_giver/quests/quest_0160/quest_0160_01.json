@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務！"
+    },
+    "description": {
+      "text": "エンダーブラスターをあなたに託す前に、あなたの価値を証明するために2つの任務を達成しなければなりません：ネザーの地獄の砂丘からパイプラインの監視者を排除し、完全に成熟したキノココロニーを刈り取ってください。それを達成するためには、肥沃な土壌を開発する必要があることを忘れないでください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "おめでとうございます！これです。 このブラスターは、大きなエネルギー源を詰め込んだ強力な一撃を加えます。"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

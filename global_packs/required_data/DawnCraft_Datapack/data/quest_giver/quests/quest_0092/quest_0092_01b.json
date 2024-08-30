@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "help"
+    },
+    "description": {
+      "text": "素晴らしい！エンダードラゴンを倒すと、エンダーの卵が手に入ることをご存知でしたか？基本的に、私は$(red)ドラゴンの卵$()を見せてもらいたいのですが、それをしていただけますか？"
+    }
+  }
+}

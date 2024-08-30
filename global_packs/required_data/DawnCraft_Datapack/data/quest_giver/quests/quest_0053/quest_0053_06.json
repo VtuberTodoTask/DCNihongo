@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "そう？"
+    },
+    "description": {
+      "text": "まあ、あなたはなんて厚かましいのかしら。報酬については何も言っていなかったでしょう？さっさと行きなさい、坊や、私が警備員を呼ぶ前に。"
+    }
+  }
+}

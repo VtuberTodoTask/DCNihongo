@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "緊急の依頼"
+    },
+    "description": {
+      "text": "悪が迫っています。ガードのために16個の鉄インゴットを手に入れる手助けをしてくれませんか？もっと武器が必要なんです...準備ができていません。"
+    }
+  }
+}

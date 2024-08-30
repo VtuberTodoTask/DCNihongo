@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "ナイフの研ぎ"
+    },
+    "description": {
+      "text": "$(red)深石5個$()は手に入れたか？私の刃が鈍くなってきている。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "完了"
+    },
+    "description": {
+      "text": "良い仕事だ！予想通り、これらの岩は粗いグリットと細かいグリットの両方を含んでいる。ありがとう！さあ、これを受け取ってくれ、君の報酬だ。"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

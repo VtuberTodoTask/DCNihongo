@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "冒険者だと言うなら、コンパスを持っていなきゃ！ $(red)コンパス$()を作って、私のところに戻ってきて。"
+    }
+  }
+}

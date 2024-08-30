@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "ナイフの研ぎ"
+    },
+    "description": {
+      "text": "ナイフのために良い砥石を探しています。地下にあるディープスレートという材料が研ぎに最適だと聞いたことがあります。$(red)そのディープスレートの石3個$()を取ってきてくれませんか？"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "不可能な任務！"
+    },
+    "description": {
+      "text": "私が要求する2つの任務を完了しなければ、あなたに強力なルインを授けることを考えることはありません。肉を与えた後、トラの祝福を受け取り、ネザーの有毒な塊の中からネザーリアクターを略奪してください。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ありがとう！"
+    },
+    "description": {
+      "text": "素晴らしい仕事です！こちらです。刃の端には多くの知識が封印されています..."
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "alexsmobs:alexsmobs/tigers_blessing"
+    },
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "incendium:toxic_heap/nuclear_fusion"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ruine"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

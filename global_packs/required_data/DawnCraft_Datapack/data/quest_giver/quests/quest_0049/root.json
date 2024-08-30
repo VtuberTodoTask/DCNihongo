@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "こんにちは、$(red)マグマクリーム$()を手に入れるのを手伝ってくれませんか？医療研究に必要なんです。"
+    }
+  }
+}

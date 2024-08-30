@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "探索！"
+    },
+    "description": {
+      "text": "この3つのバイオーム：古代の砂、火山の峰、白いメサを旅行し終えたら戻ってきてください"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "完了"
+    },
+    "description": {
+      "text": "詳細な説明をありがとう。あなたの説明を基に描くことができそうです。はい、これが報酬です。"
+    }
+  },
+  "tasks": [
+    {
+      "id": "dawncraft:advancement",
+      "advancement": "custom:traveller"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

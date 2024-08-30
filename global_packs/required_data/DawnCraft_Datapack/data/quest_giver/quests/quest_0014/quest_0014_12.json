@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "エンド... はただの始まり??"
+    },
+    "description": {
+      "text": "もし知りたいのなら... エンダードラゴンを堕落させた神... 彼はまだ生きている。しかし、その存在はあなたにとってはあまりにも強力すぎる。彼に到達するための地図はエンダーガーディアンが持っている。エンダーガーディアンの行方については... 我々のエンダー族が手がかりを持っているかもしれない。あなたがこれを追求することはお勧めできない。あなたはそれ以上のことをやってのけた。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "真の結末"
+    },
+    "description": {
+      "text": "私は... あなたを疑ってごめんなさい。あなたは、本当に、唯一無二の存在です。                                      - メインクエストの終了 -"
+    }
+  },
+  "tasks": [
+    {
+		"id": "dawncraft:advancement",
+		"advancement": "simple_mobs:killelementaldeity"
+    }
+  ],
+  "rewards": [
+  ]
+}

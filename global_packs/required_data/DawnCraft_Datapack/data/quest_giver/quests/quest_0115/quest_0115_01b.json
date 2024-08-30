@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "申し出"
+    },
+    "description": {
+      "text": "ネザー次元にいたとき、内部に怪物のゴーレムが住んでいる奇妙な構造物を見つけました。6つのエメラルドをくれれば、その場所を地図で示します。"
+    }
+  }
+}

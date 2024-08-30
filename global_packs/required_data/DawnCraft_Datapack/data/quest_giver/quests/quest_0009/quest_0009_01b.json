@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "リクエスト取得"
+    },
+    "description": {
+      "text": "4つのイカスミの袋を取り戻すのを手伝ってくれませんか？"
+    }
+  }
+}

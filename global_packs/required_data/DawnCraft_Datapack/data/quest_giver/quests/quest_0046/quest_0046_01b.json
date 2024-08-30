@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": " extermination"
+    },
+    "description": {
+      "text": "次元に新しいタイプの悪が現れています。半人半獣のこれらは$(red)銀の獣$()と呼ばれています。彼らは夜にさまよっています。これらの不浄な生き物2体を排除し、私のところに戻ってきてください。"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "スピリットハンティング"
+    },
+    "description": {
+      "text": "精霊はこの次元にさまざまな形で現れます。時にはアイテムや剣、さらには鎧をpossessします！$(red)5個の憑依した…あるいは空虚な鎧$()を狩ることができるか確認してみてください。あなたの勇気に対して報酬を与えます。どう思いますか？"
+    }
+  }
+}

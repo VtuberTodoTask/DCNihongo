@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "またこんにちは!"
+    },
+    "description": {
+      "text": "あ、もうすぐ忘れるところだった。紙を1枚取ってきてくれる? 彼らの隠れ家の場所を記しておく。"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "ここだ。"
+    },
+    "description": {
+      "text": "ここだ。早く来て! 子供に何をするつもりかわからない。"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:pillager_hideout \"救助要請 - 襲撃者の隠れ家\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

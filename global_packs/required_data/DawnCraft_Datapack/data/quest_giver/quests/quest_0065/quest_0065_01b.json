@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "チップ付き矢"
+    },
+    "description": {
+      "text": "チップ付き矢を作ろうとしているんだ。グローストーンダストを1ダース持ってきてくれないか？"
+    }
+  }
+}

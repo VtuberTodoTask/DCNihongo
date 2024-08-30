@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "私は伝説の武器 - 花吹雪を持っていますが、それをあなたに与えるかどうかは、あなたの価値の証明にかかっています."
+    }
+  }
+}

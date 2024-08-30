@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "こんにちは、私のために農場から成長した小麦を2つ取ってきてくれませんか？それを使って私のウールバックを繁殖させる必要があります。"
+    }
+  }
+}

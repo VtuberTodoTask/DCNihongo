@@ -1,0 +1,254 @@
+{
+	id: "456CFF8FE8F8BFAB"
+	group: "25047313B704629A"
+	order_index: 1
+	filename: "useful_commands_for_servers"
+	title: "役立つ情報"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["In-game Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbteams:textures/accept.png"
+			hover: ["Multiplayer Info"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: -8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "orcz:textures/aaquestionmark.png"
+			hover: ["Misc."]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "サーバーでフレンドリーファイアを無効にするには？"
+			description: [
+				"1) /team add [team] \\n2) /team modify [team] friendlyfire false"
+				"3) /team join [team] [player]"
+			]
+			id: "59F404BFA55005EA"
+			tasks: [{
+				id: "01CE05960FF752C1"
+				type: "checkmark"
+				title: "フレンドリーファイアを無効にします"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "知っておくべきキー割り当てのリスト！"
+			description: [
+				"   あなたの最後の死亡情報のために \"i\" を押してください"
+				"       \"h\" を押して馬を呼びます"
+				"       \"j\" を押して馬を保存します"
+				"    \"r\" を押して戦闘モードを有効にします"
+				"     \"b\" を押してバックパックを開きます \                 (装備している場合)"
+				"      \"n\" を押して矢筒を開きます\                 (装備している場合)"
+				"          \"k\" を押して有効なスキルを確認し\            選択します"
+			]
+			id: "726F1FFCA2697CF6"
+			tasks: [{
+				id: "79E1E37E279C39DE"
+				type: "checkmark"
+				title: "知っておくべき有用なキー割り当て"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "欲しい情報本のリスト。個々のクラフトレシピは在庫の検索バーで確認してください！"
+			description: [
+				"    シャドウの年代記 (Apotheosis)"
+				"  生命の百科事典 (Untamed Wilds)"
+				"      動物辞典 (アレックスのモブ)"
+				"    偉大なるバターブック (Lil' Wings)"
+				"         シャドウの書 (Hexerei)"
+				"       使い古されたノート (Ars Nouveau)"
+				"クラウドストレージとあなた (Cloud Storage)"
+				"              パラディンの家具"
+				"          食品の書 (Spice of Life)"
+			]
+			id: "5540C43EFDAE8E3B"
+			tasks: [{
+				id: "484069119F39A90C"
+				type: "checkmark"
+				title: "情報本"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			subtitle: "ギルドマスターはどこにいますか？"
+			description: [
+				"ギルドマスターは村人とは別の存在ではありません。代わりに、それは職業であり、すべての村人（ニトウィットを除く）が取得可能です。 \"
+				"職業ブロック (POI) は、ギルドハウスや屋台に一般的に見られる鐘です。ギルドマスターがいない屋台のある村を見つけた場合、村人が仕事を始める昼まで待ってみてください。 \"
+				"また、村人を鐘に \"誘導\" するために、Minecraftの領域内で可能な手段を使ってみることもできます。"
+			]
+			id: "63F0B07D20E74D61"
+			tasks: [{
+				id: "3900DF3E47ADF564"
+				type: "checkmark"
+				title: "ギルドマスター"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "なぜ村人が私とインタラクトしないのですか？"
+			description: [
+				"情報はウィキで入手できます。しかし、一般的な誤りの1つは、プレイヤーが村人の前に置かなかった容器を略奪することです。これは村内のチェストだけに適用されるわけではありません。世界のどこかで村人があなたが「犯罪」を犯すのを見ている場合、あなたの評判は低下します。 \\評判を改善するために必要な束ねられた通貨の最大額は8です。しかし、これは村を虐殺しない限り、非常にunlikelyです。ほとんどの場合、1〜2の束ねられた通貨で十分です。"
+				"\しかし、あなたが低い評判が誤解されていると感じ、0の評判から始めたい場合は、チートをオンにして \/setreputation reputation:villager @p 0 を行ってください"
+				"\村人と取引するためには、十分な評判の上に取引用スクロールが必要です。取引用スクロールは、村人のクエストを完了することで取得できます。"
+			]
+			id: "1B36858C66C3C77F"
+			tasks: [{
+				id: "3FA502DE4B61335E"
+				type: "checkmark"
+				title: "評判 #1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "主なクエストの完了はどのように検出されますか？"
+			description: [
+				"盗賊やゴブリンキングを殺すことを除いて、他のすべての主なクエストはプレイヤーがエンダーアイを拾うことで検出されます。"
+				"\もしあなたが事前にボス (アイホルダー) の一人を殺し、目を取得した場合、あなたがする必要があるのは、アイホルダーが持っていた目を落とし、再度拾うことです。それで、あなたはギルドマスターのクエストを完了することができるはずです。"
+			]
+			id: "08F5174D848D7DF0"
+			tasks: [{
+				id: "62A75C3AC8B180D6"
+				type: "checkmark"
+				title: "クエスト検出"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			subtitle: "どのシェーダーを使用すべきですか？"
+			description: [
+				"             最良のパフォーマンス:\           - Sildurs Vibrant Lite\"
+				"      最高のビジュアルに推奨:\        - Complimentary Reimagined"
+				"\         これらがあなたの好みに合わない場合は、他のものを試してください！\"
+			]
+			id: "7644BDD80B6EDA44"
+			tasks: [{
+				id: "43CC8096AA6E2C33"
+				type: "checkmark"
+				title: "シェーダーの推奨"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			subtitle: "サーバーで私のプロパティを保護するには？"
+			description: [
+				" 'Claim Chunks'というモッドを確認してください。このモッドは、ゲームに新しいブロック - クレームブロックを追加します。 \\カスタマイズの方法を学ぶために、彼らのCurseForgeページをチェックしてください！"
+				"\*プレイヤーがクレームできるチャンクの最大数はデフォルトで8です。"
+			]
+			id: "2294C358D1153CAE"
+			tasks: [{
+				id: "6C26B3CB7B7B5B78"
+				type: "checkmark"
+				title: "チャンクを主張します"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "バニラのグラフィックス設定メニューを有効にするには？"
+			description: ["         グラフィックスメニューで \"Shift\" + \"P\" を押します"]
+			id: "0E4410A648272A97"
+			tasks: [{
+				id: "79729BB3AB3E564D"
+				type: "checkmark"
+				title: "バニラグラフィックス設定"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			subtitle: "なぜProjectMMOは機能しないのですか？"
+			description: [
+				"   このパックではモッドが異なる方法で使用されています。\それが存在することを忘れてください。"
+				"\   私たちは、PMMOの高いカスタマイズ性を利用して、知識のような特別なスキルを作成し、アイテムに対する要件を設定します。\ "
+			]
+			id: "217D8862894AE01D"
+			tasks: [{
+				id: "4882C70BB6EEE851"
+				type: "checkmark"
+				title: "ProjectMMO"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "探検家の地図を読むにはどうすればよいですか？"
+			description: [
+				"地図の端にある小さな点に注目してください。あなたです。地図のTOPは北を指し; 地図のLEFTは西を指します; など..."
+				"\バニラMinecraftにバグがあることがあり、マップに十字が表示されないことがあります。このような場合、マップがある地域を見回す必要があります。"
+			]
+			id: "10180D525A3F3D4F"
+			tasks: [{
+				id: "11DFA820F8B8E6FF"
+				type: "checkmark"
+				title: "地図を読む"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "コマンドを有効にするにはどうすればよいですか？"
+			description: ["/gamerule sendCommandFeedback true"]
+			id: "2E679597791BF6B8"
+			tasks: [{
+				id: "68056F1A3F76B35D"
+				type: "checkmark"
+				title: "コマンドを有効にする"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "サーバーでアイホルダーボスの再出現を有効にするには？"
+			description: [
+				"  /gamerule doDCBossesRespawn true"
+				"\     主なクエストラインを進んでいるプレイヤーのみがボスを再召喚できることに注意してください。"
+			]
+			id: "1708A5D4E536662D"
+			tasks: [{
+				id: "4708BF5BBA73E19F"
+				type: "checkmark"
+				title: "ボスの再出現を有効にする"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

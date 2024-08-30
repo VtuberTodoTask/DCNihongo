@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "こんにちは！"
+    },
+    "description": {
+      "text": "伝説の武器 - 無月は私が扱うものだが、あなたが自分の価値を証明した後にのみ渡されるだろう。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "気にしないで."
+    },
+    "description": {
+      "text": "村人は最後の瞬間にあなたと話さないことに決めました。"
+    }
+  }
+}

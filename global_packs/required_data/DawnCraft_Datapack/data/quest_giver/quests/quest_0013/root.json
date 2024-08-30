@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "こんにちは!"
+    },
+    "description": {
+      "text": "私に Grindstone の使い方を教えてほしいですか? 10 エメラルドがかかります。"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "やあ！"
+    },
+    "description": {
+      "text": "ようこそ！これはあなたがギルドを訪れるのは初めてのようですね。初めてのクエストを受けてみますか？"
+    }
+  }
+}
