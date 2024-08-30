@@ -16,7 +16,7 @@ CurseForgeの場合は一度DawnCraftを起動しておかないと上書きす�
 入れたら、japaneseと書かれたリソースパックを導入してください。バージョンが古いと言われますがそのまま有効にしても問題ないはずです。
 
 ## 重要
-上にも書いたけど、[MinecraftModsLocalizer](https://github.com/Y-RyuZU/MinecraftModsLocalizer)と[DawnCraftQuestGiverTranslator](https://github.com/VtuberTodoTask/DawnCraftQuestGiverTranslator)を使って機械翻訳したデータをおいただけです。翻訳がおかしくても翻訳したChatGPT君が悪い！あと翻訳が失敗していてもChatGPT君が悪い！  
+上にも書きましたが、[MinecraftModsLocalizer](https://github.com/Y-RyuZU/MinecraftModsLocalizer)と[DawnCraftQuestGiverTranslator](https://github.com/VtuberTodoTask/DawnCraftQuestGiverTranslator)を使って機械翻訳したデータをおいただけです。翻訳がおかしくても翻訳したChatGPT君が悪いです！あと翻訳が失敗していてもChatGPT君が悪いです！  
 なので、雑でもいいから日本語で遊びたいという人向けです。
 この日本語化データを導入したことによって発生した問題について、登藤佑は一切の責任を負いません。導入前にうまくいくかバックアップを取っておくことを強くおすすめします。
 
