@@ -1,0 +1,18 @@
+{
+	"class.dawncraft.brawler" : "格闘家",
+	"class.dawncraft.astrologer" : "占星術師",
+	"class.dawncraft.ronin" : "浪人",
+	"class.dawncraft.warrior" : "戦士",
+	"class.dawncraft.berserker" : "狂戦士",
+	"class.dawncraft.tank" : "タンク",
+	"class.dawncraft.lancer" : "槍兵",
+	"class.dawncraft.roamer" : "遊牧民",
+	"class.dawncraft.brawler.desc" : "格闘家は平均以上の体力と平均的なスタミナを持ち、近接戦闘での耐久力を発揮します。",
+	"class.dawncraft.astrologer.desc" : "占星術師は低い体力と平均以下のスタミナを持ち、強力なエンダーステップで戦略的な動きを可能にし、基本的な魔法の呪文書を使って魔法を行使します。",
+	"class.dawncraft.ronin.desc" : "低い体力と平均的なスタミナを持つ浪人は、敏捷な刀使いで、精確な攻撃を行いながら巧妙にダメージを避けます。",
+	"class.dawncraft.warrior.desc" : "戦士は平均以上のスタミナと体力を持ち、戦場でバランスの取れた力を発揮します。",
+	"class.dawncraft.berserker.desc" : "狂戦士は平均的な体力と平均以上のスタミナを持ち、長期戦に特化した特殊スキルで延々と戦い続けます。",
+	"class.dawncraft.tank.desc" : "高い体力と平均以下のスタミナを持つタンククラスは、絶え間ない攻撃を耐え抜くことができます。スタン耐性のユニークなスキルを持ち、戦場で揺るぎない守護者です。",
+	"class.dawncraft.lancer.desc" : "槍兵は平均的な体力とスタミナを持ち、精確さと敏捷さを誇ります。敵の弱点を突くのに優れ、素早い回避を使った戦闘操作を得意とします。",
+	"class.dawncraft.roamer.desc" : "弓と矢を持つ遊牧民は、平均以下の体力と高いスタミナを持ち、敏捷さを生かして戦います。"
+}
