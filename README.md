@@ -11,9 +11,14 @@ patchouliまわりを使っているデータ（MODガイドブックなど）�
 * その他MOD
 
 ## 導入方法
+### シングルプレイで遊ぶ場合
 CurseForgeなどでDawnCraftをインストールし、DawnCraftのインストールフォルダの中にconfig、global_packs、resourcepacksの3つを入れてください。  
 CurseForgeの場合は一度DawnCraftを起動しておかないと上書きする対象のファイルが入っていないので、まず起動しておいてください。  
 入れたら、japaneseと書かれたリソースパックを導入してください。バージョンが古いと言われますがそのまま有効にしても問題ないはずです。
+
+### マルチプレイで遊ぶ場合
+サーバー側にもconfigとglobal_packsの内容を入れておく必要があります。（quest_giverがサーバー依存のデータのため）
+DawnCraftのServerPackの中に配置し、サーバーを再起動すれば反映されるはずです。
 
 ## 重要
 上にも書きましたが、[MinecraftModsLocalizer](https://github.com/Y-RyuZU/MinecraftModsLocalizer)と[DawnCraftQuestGiverTranslator](https://github.com/VtuberTodoTask/DawnCraftQuestGiverTranslator)を使って機械翻訳したデータをおいただけです。翻訳がおかしくても翻訳したChatGPT君が悪いです！あと翻訳が失敗していてもChatGPT君が悪いです！  
